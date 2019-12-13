@@ -1,0 +1,51 @@
+# Xcode
+
+DerivedData/
+
+build
+build/*
+build_products
+
+*.pbxuser
+!default.pbxuser
+
+*.mode1v3
+!default.mode1v3
+
+*.mode2v3
+!default.mode2v3
+
+*.perspectivev3
+!default.perspectivev3
+
+xcuserdata
+project.xcworkspace
+!default.xcworkspace
+*.xcscmblueprint
+
+xcuserdata
+profile
+*.moved-aside
+
+
+# finder
+.DS_Store
+
+*~
+
+# python
+__pycache__
+
+# WC
+build_NW
+
+FaceMatchingSDK.framework/
+CountdownBlue.bundle
+CountdownBlueGreen.bundle
+CountdownDefault.bundle
+CountdownYellow.bundle
+ElementSDK.framework/
+FlowerPetals.bundle
+LegacyCountdown.bundle
+
+debug.txt
