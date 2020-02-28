@@ -232,8 +232,6 @@ class MainViewController: UIViewController {
             }
             // show instructions before capture or not
             enrollmentVC?.showGazeInstructions = false
-            // 4 images enrollment
-            enrollmentVC?.enrollmentType = .normal
             // enrollment success message
             enrollmentVC?.enrollmentMessageForAccountBlock = {
                 return "Enrolled!"
