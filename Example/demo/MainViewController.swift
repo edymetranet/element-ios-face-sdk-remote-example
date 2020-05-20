@@ -233,7 +233,7 @@ class MainViewController: UIViewController {
             // show instructions before capture or not
             enrollmentVC?.showGazeInstructions = false
             // enrollment success message
-            enrollmentVC?.enrollmentMessageForAccountBlock = {
+            enrollmentVC?.enrollmentMessageBlock = {
                 return "Enrolled!"
             }
             // show the enrollment success popup

@@ -27,9 +27,6 @@ class AppDelegatePublic: UIResponder, UIApplicationDelegate {
         // TODO: replace YOUR_EAK with the EAK provided by Element
         ElementSDKConfiguration.shared().initialize(withConfigurationData: "YOUR_EAK")
         
-        // geo locate user during authentication (default is false)
-        ElementSDKConfiguration.shared().geolocateUser = false
-        
         // theme: requires the asset bundles
         ElementSDKConfiguration.shared().theme = .flowerPetals
 #endif

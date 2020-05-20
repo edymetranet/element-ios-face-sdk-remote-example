@@ -27,6 +27,7 @@
 		4DA837EA21706274001C371E /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DA837E921706274001C371E /* MainViewController.swift */; };
 		4DA837EC217063B5001C371E /* AppDelegatePublic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DA837EB217063B4001C371E /* AppDelegatePublic.swift */; };
 		4DD10A4F214CBEC2009189C4 /* NetworkingHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DD10A4E214CBEC2009189C4 /* NetworkingHelper.swift */; };
+		4DEAC6BF242E3EC300C405F9 /* UIViewController+Objc.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DEAC6BE242E3EC300C405F9 /* UIViewController+Objc.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -66,6 +67,8 @@
 		4DA837E921706274001C371E /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		4DA837EB217063B4001C371E /* AppDelegatePublic.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegatePublic.swift; sourceTree = "<group>"; };
 		4DD10A4E214CBEC2009189C4 /* NetworkingHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkingHelper.swift; sourceTree = "<group>"; };
+		4DEAC6BD242E3EC300C405F9 /* UIViewController+Objc.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIViewController+Objc.h"; sourceTree = "<group>"; };
+		4DEAC6BE242E3EC300C405F9 /* UIViewController+Objc.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+Objc.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -120,6 +123,8 @@
 				4D37426E1D9D874D009CB5B2 /* UIView+Element.swift */,
 				4D3742681D9C92CB009CB5B2 /* UIViewController+Alert.swift */,
 				4D052AE823C6264B0034B5AA /* UserSignInViewController.swift */,
+				4DEAC6BD242E3EC300C405F9 /* UIViewController+Objc.h */,
+				4DEAC6BE242E3EC300C405F9 /* UIViewController+Objc.m */,
 			);
 			name = sources;
 			sourceTree = "<group>";
@@ -228,6 +233,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4DEAC6BF242E3EC300C405F9 /* UIViewController+Objc.m in Sources */,
 				4D37426D1D9D861B009CB5B2 /* UIScreen+Element.swift in Sources */,
 				4D37426F1D9D874D009CB5B2 /* UIView+Element.swift in Sources */,
 				4DA837EA21706274001C371E /* MainViewController.swift in Sources */,
