@@ -13,7 +13,7 @@
 - (void)remoteAuthentication:(NSString *)userId {
     [ElementSDKConfiguration shared].faceAntiSpoofingType = ELTFaceAntiSpoofingPassive;
     
-    RemoteFaceAuthenticationViewController *vc = [[RemoteFaceAuthenticationViewController alloc] initWithAsyncVerifyBlock:^(NSArray<CornerImage *> *  images, NSNumber *  latitude, NSNumber *  longitude, FaceMatchingResultBlock resultCallBack) {
+    RemoteFaceAuthenticationViewController *vc = [[RemoteFaceAuthenticationViewController alloc] initWithAsyncVerifyBlock:^(NSArray<CornerImage *> *  images, NSNumber *  latitude, NSNumber *  longitude, NSDictionary *logs, FaceMatchingResultBlock resultCallBack) {
         for (CornerImage *cornerImage in images) {
             NSLog(@"img: %@", [cornerImage.data base64EncodedStringWithOptions:0]);
         }
@@ -24,7 +24,7 @@
     } onAuthentication:^(UIViewController * viewController, CGFloat confidenceScore) {
         [viewController dismissViewControllerAnimated:YES completion:nil];
         // TODO: notify caller
-    } onCancel:^(UIViewController * viewController) {
+    } onEarlyExit:^(UIViewController * viewController, ELTEarlyExitReason reason) {
         [viewController dismissViewControllerAnimated:YES completion:nil];
         // TODO: notify caller
     }];

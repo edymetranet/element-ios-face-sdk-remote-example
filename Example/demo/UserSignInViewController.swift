@@ -222,7 +222,7 @@ class UserSignInViewController: UIViewController, UITextFieldDelegate {
         if self.signInType == .emailAndPin {
             ElementSDKTransaction.userSignIn(withEmail: email.trimmingCharacters(in: CharacterSet.whitespaces), pin: pin.trimmingCharacters(in: CharacterSet.whitespaces), successBlock: successBlock, errorBlock: errorBlock)
         } else if self.signInType == .userId {
-            ElementSDKTransaction.userSignIn(withUserId: userId.trimmingCharacters(in: CharacterSet.whitespaces), downloadMetaData: true, successBlock: successBlock, errorBlock: errorBlock)
+            ElementSDKTransaction.userSignIn(withUserId: userId.trimmingCharacters(in: CharacterSet.whitespaces), successBlock: successBlock, errorBlock: errorBlock)
         }
     }
 #endif

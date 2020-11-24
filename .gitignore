@@ -39,6 +39,7 @@ __pycache__
 # WC
 build_NW
 
+SelfieDot.bundle
 FaceMatchingSDK.framework/
 CountdownBlue.bundle
 CountdownBlueGreen.bundle

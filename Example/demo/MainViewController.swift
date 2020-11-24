@@ -140,7 +140,7 @@ class MainViewController: UIViewController {
         let sdkLevelAuthVc = RemoteFaceAuthenticationViewController(userId: userId, onAuthentication: { (viewController, confidenceScore, message) in
             print("success authenticating ", userId)
             _ = viewController.navigationController?.popViewController(animated: true)
-        }, onCancel: { (viewController) in
+        }, onEarlyExit: { (viewController, reason) in
             print("success authenticating ", userId)
             _ = viewController.navigationController?.popViewController(animated: true)
         })
@@ -149,16 +149,16 @@ class MainViewController: UIViewController {
     
     func appLayerAuthenticationViewController(userId: String) -> RemoteFaceAuthenticationViewController? {
         let vc = RemoteFaceAuthenticationViewController(asyncVerifyBlock: {
-            images, latitude, longitude, callback in
+            images, latitude, longitude, logs, callback in
             // you may pass in additional parameters
-            let result = ElementRemoteProcessingTransaction.verifyUserId(userId, with: images, latitude: latitude, longitude: longitude, additionalParameters: nil)
+            let result = ElementRemoteProcessingTransaction.verifyUserId(userId, with: images, latitude: latitude, longitude: longitude, logs: logs, additionalParameters: nil)
             callback(result)
         }, onAuthentication: {
             viewController, confidenceScore in
             print("success authenticating")
             _ = viewController.navigationController?.popViewController(animated: true)
-        }, onCancel: {
-            viewController in
+        }, onEarlyExit: {
+            viewController, reason in
             print("authentication cancelled")
             _ = viewController.navigationController?.popViewController(animated: true)
         })
@@ -188,7 +188,7 @@ class MainViewController: UIViewController {
                 account.save()
                 self.reloadData()
             }
-        }, onCancel: { (vc) in
+        }, onEarlyExit: { (vc, reason) in
             _ = vc.navigationController?.popViewController(animated: true)
         })
         return enrollmentVC
@@ -215,7 +215,7 @@ class MainViewController: UIViewController {
                     })
                 }
             })
-        }, onCancel: { (viewController) in
+        }, onEarlyExit: { (viewController, reason) in
             _ = viewController.navigationController?.popViewController(animated: true)
         })
         return enrollmentVC
