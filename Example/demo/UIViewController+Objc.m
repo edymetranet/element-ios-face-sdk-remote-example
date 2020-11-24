@@ -11,6 +11,7 @@
 @implementation UIViewController (Objc)
 
 - (void)remoteAuthentication:(NSString *)userId {
+#if !(TARGET_IPHONE_SIMULATOR)
     [ElementSDKConfiguration shared].faceAntiSpoofingType = ELTFaceAntiSpoofingPassive;
     
     RemoteFaceAuthenticationViewController *vc = [[RemoteFaceAuthenticationViewController alloc] initWithAsyncVerifyBlock:^(NSArray<CornerImage *> *  images, NSNumber *  latitude, NSNumber *  longitude, NSDictionary *logs, FaceMatchingResultBlock resultCallBack) {
@@ -31,6 +32,7 @@
     vc.showAuthenticationSuccessScreen = NO;
     UIWindow *window = [[UIApplication sharedApplication] keyWindow];
     [window.rootViewController presentViewController:vc animated:YES completion:nil];
+#endif // simulator
 }
 
 @end
