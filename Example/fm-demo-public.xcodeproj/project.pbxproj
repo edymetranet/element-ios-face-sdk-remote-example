@@ -18,14 +18,12 @@
 		4D66EAEA23A3D78C00147981 /* ElementSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4D66EAE923A3D78C00147981 /* ElementSDK.framework */; };
 		4D66EAEB23A3D78C00147981 /* ElementSDK.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 4D66EAE923A3D78C00147981 /* ElementSDK.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		4D66EAF223A3D7A000147981 /* CountdownDefault.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 4D66EAEC23A3D79F00147981 /* CountdownDefault.bundle */; };
-		4D66EAF323A3D7A000147981 /* CountdownBlueGreen.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 4D66EAED23A3D79F00147981 /* CountdownBlueGreen.bundle */; };
-		4D66EAF423A3D7A000147981 /* CountdownBlue.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 4D66EAEE23A3D79F00147981 /* CountdownBlue.bundle */; };
-		4D66EAF523A3D7A000147981 /* CountdownYellow.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 4D66EAEF23A3D79F00147981 /* CountdownYellow.bundle */; };
 		4D66EAF623A3D7A000147981 /* FlowerPetals.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 4D66EAF023A3D79F00147981 /* FlowerPetals.bundle */; };
-		4D66EAF723A3D7A000147981 /* LegacyCountdown.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 4D66EAF123A3D79F00147981 /* LegacyCountdown.bundle */; };
 		4D7448071FA935BE00B1A06D /* AccountTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D7448061FA935BE00B1A06D /* AccountTableViewCell.swift */; };
 		4DA837EA21706274001C371E /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DA837E921706274001C371E /* MainViewController.swift */; };
 		4DA837EC217063B5001C371E /* AppDelegatePublic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DA837EB217063B4001C371E /* AppDelegatePublic.swift */; };
+		4DC58BA72611F48D00621634 /* SelfieDotV2.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 4DC58BA52611F48C00621634 /* SelfieDotV2.bundle */; };
+		4DC58BA82611F48D00621634 /* SelfieDot.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 4DC58BA62611F48C00621634 /* SelfieDot.bundle */; };
 		4DD10A4F214CBEC2009189C4 /* NetworkingHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DD10A4E214CBEC2009189C4 /* NetworkingHelper.swift */; };
 		4DEAC6BF242E3EC300C405F9 /* UIViewController+Objc.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DEAC6BE242E3EC300C405F9 /* UIViewController+Objc.m */; };
 /* End PBXBuildFile section */
@@ -57,15 +55,13 @@
 		4D37426E1D9D874D009CB5B2 /* UIView+Element.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+Element.swift"; sourceTree = "<group>"; };
 		4D66EAE923A3D78C00147981 /* ElementSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ElementSDK.framework; path = demo/Frameworks/ElementSDK.framework; sourceTree = "<group>"; };
 		4D66EAEC23A3D79F00147981 /* CountdownDefault.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = CountdownDefault.bundle; path = Frameworks/CountdownDefault.bundle; sourceTree = "<group>"; };
-		4D66EAED23A3D79F00147981 /* CountdownBlueGreen.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = CountdownBlueGreen.bundle; path = Frameworks/CountdownBlueGreen.bundle; sourceTree = "<group>"; };
-		4D66EAEE23A3D79F00147981 /* CountdownBlue.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = CountdownBlue.bundle; path = Frameworks/CountdownBlue.bundle; sourceTree = "<group>"; };
-		4D66EAEF23A3D79F00147981 /* CountdownYellow.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = CountdownYellow.bundle; path = Frameworks/CountdownYellow.bundle; sourceTree = "<group>"; };
 		4D66EAF023A3D79F00147981 /* FlowerPetals.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = FlowerPetals.bundle; path = Frameworks/FlowerPetals.bundle; sourceTree = "<group>"; };
-		4D66EAF123A3D79F00147981 /* LegacyCountdown.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = LegacyCountdown.bundle; path = Frameworks/LegacyCountdown.bundle; sourceTree = "<group>"; };
 		4D7448061FA935BE00B1A06D /* AccountTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AccountTableViewCell.swift; sourceTree = "<group>"; };
 		4DA837E121701F35001C371E /* Info_face_matching.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info_face_matching.plist; sourceTree = "<group>"; };
 		4DA837E921706274001C371E /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		4DA837EB217063B4001C371E /* AppDelegatePublic.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegatePublic.swift; sourceTree = "<group>"; };
+		4DC58BA52611F48C00621634 /* SelfieDotV2.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = SelfieDotV2.bundle; path = Frameworks/SelfieDotV2.bundle; sourceTree = "<group>"; };
+		4DC58BA62611F48C00621634 /* SelfieDot.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = SelfieDot.bundle; path = Frameworks/SelfieDot.bundle; sourceTree = "<group>"; };
 		4DD10A4E214CBEC2009189C4 /* NetworkingHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkingHelper.swift; sourceTree = "<group>"; };
 		4DEAC6BD242E3EC300C405F9 /* UIViewController+Objc.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIViewController+Objc.h"; sourceTree = "<group>"; };
 		4DEAC6BE242E3EC300C405F9 /* UIViewController+Objc.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+Objc.m"; sourceTree = "<group>"; };
@@ -132,12 +128,10 @@
 		4D5EBBB21ECD1A670042FEBD /* resources */ = {
 			isa = PBXGroup;
 			children = (
-				4D66EAEE23A3D79F00147981 /* CountdownBlue.bundle */,
-				4D66EAED23A3D79F00147981 /* CountdownBlueGreen.bundle */,
+				4DC58BA62611F48C00621634 /* SelfieDot.bundle */,
+				4DC58BA52611F48C00621634 /* SelfieDotV2.bundle */,
 				4D66EAEC23A3D79F00147981 /* CountdownDefault.bundle */,
-				4D66EAEF23A3D79F00147981 /* CountdownYellow.bundle */,
 				4D66EAF023A3D79F00147981 /* FlowerPetals.bundle */,
-				4D66EAF123A3D79F00147981 /* LegacyCountdown.bundle */,
 				4DA837E121701F35001C371E /* Info_face_matching.plist */,
 				4D37422B1D88667D009CB5B2 /* Assets.xcassets */,
 				4D37422D1D88667D009CB5B2 /* LaunchScreen.storyboard */,
@@ -216,12 +210,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				4D37422F1D88667D009CB5B2 /* LaunchScreen.storyboard in Resources */,
-				4D66EAF423A3D7A000147981 /* CountdownBlue.bundle in Resources */,
 				4D37422C1D88667D009CB5B2 /* Assets.xcassets in Resources */,
-				4D66EAF523A3D7A000147981 /* CountdownYellow.bundle in Resources */,
-				4D66EAF723A3D7A000147981 /* LegacyCountdown.bundle in Resources */,
+				4DC58BA72611F48D00621634 /* SelfieDotV2.bundle in Resources */,
 				4D66EAF223A3D7A000147981 /* CountdownDefault.bundle in Resources */,
-				4D66EAF323A3D7A000147981 /* CountdownBlueGreen.bundle in Resources */,
+				4DC58BA82611F48D00621634 /* SelfieDot.bundle in Resources */,
 				4D66EAF623A3D7A000147981 /* FlowerPetals.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

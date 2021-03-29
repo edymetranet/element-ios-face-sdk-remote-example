@@ -14,8 +14,8 @@
 #if !(TARGET_IPHONE_SIMULATOR)
     [ElementSDKConfiguration shared].faceAntiSpoofingType = ELTFaceAntiSpoofingPassive;
     
-    RemoteFaceAuthenticationViewController *vc = [[RemoteFaceAuthenticationViewController alloc] initWithAsyncVerifyBlock:^(NSArray<CornerImage *> *  images, NSNumber *  latitude, NSNumber *  longitude, NSDictionary *logs, FaceMatchingResultBlock resultCallBack) {
-        for (CornerImage *cornerImage in images) {
+    RemoteFaceAuthenticationViewController *vc = [[RemoteFaceAuthenticationViewController alloc] initWithAsyncVerifyBlock:^(NSArray<TaggedImage *> *  images, NSNumber *  latitude, NSNumber *  longitude, NSDictionary *logs, FaceMatchingResultBlock resultCallBack) {
+        for (TaggedImage *cornerImage in images) {
             NSLog(@"img: %@", [cornerImage.data base64EncodedStringWithOptions:0]);
         }
         FaceMatchingResult *res = [FaceMatchingResult new];
