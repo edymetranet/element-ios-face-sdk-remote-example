@@ -180,6 +180,7 @@
 				TargetAttributes = {
 					4D3742201D88667D009CB5B2 = {
 						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = KCMF2PRRMF;
 						LastSwiftMigration = 0920;
 						ProvisioningStyle = Automatic;
 					};
@@ -319,7 +320,7 @@
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = KCMF2PRRMF;
 				EXCLUDED_SOURCE_FILE_NAMES = ElementSDK.framework;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
@@ -335,7 +336,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				OTHER_SWIFT_FLAGS = "-D FACE_ONLY  -D FACE_SERVER -D DEBUG";
-				PRODUCT_BUNDLE_IDENTIFIER = com.yourcompany.elementfacematching;
+				PRODUCT_BUNDLE_IDENTIFIER = id.metranet.elementfacematching;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
 				PROVISIONING_PROFILE_SPECIFIER = "";
@@ -406,7 +407,7 @@
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Element, Inc";
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = KCMF2PRRMF;
 				EXCLUDED_SOURCE_FILE_NAMES = ElementSDK.framework;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
@@ -420,7 +421,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				OTHER_SWIFT_FLAGS = "-D FACE_ONLY  -D FACE_SERVER";
-				PRODUCT_BUNDLE_IDENTIFIER = com.yourcompany.elementfacematching;
+				PRODUCT_BUNDLE_IDENTIFIER = id.metranet.elementfacematching;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
 				PROVISIONING_PROFILE_SPECIFIER = "";
