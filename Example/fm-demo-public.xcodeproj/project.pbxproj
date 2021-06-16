@@ -321,7 +321,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = KCMF2PRRMF;
-				EXCLUDED_SOURCE_FILE_NAMES = ElementSDK.framework;
+				EXCLUDED_SOURCE_FILE_NAMES = "";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/demo/Frameworks",
@@ -408,7 +408,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = KCMF2PRRMF;
-				EXCLUDED_SOURCE_FILE_NAMES = ElementSDK.framework;
+				EXCLUDED_SOURCE_FILE_NAMES = "";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/demo/Frameworks",
